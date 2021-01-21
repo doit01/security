@@ -1,4 +1,7 @@
-    @Override
+   https://blog.csdn.net/weixin_33725722/article/details/88018870?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-15.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-15.control
+   
+   
+   @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
           .antMatchers("/login").permitAll()
